@@ -1,0 +1,51 @@
+name: home_security_system
+description: "App to arm and disarm home security system."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter_18pt-Regular.ttf
+        - asset: fonts/Inter_18pt-Bold.ttf
+          weight: 700
+    - family: Nokora
+      fonts:
+        - asset: fonts/Nokora-Regular.ttf
+        - asset: fonts/Nokora-Light.ttf
+          weight: 300
+        - asset: fonts/Nokora-Bold.ttf
+          weight: 700
+
+  assets:
+    - images/
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
